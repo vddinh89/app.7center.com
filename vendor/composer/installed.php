@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laraclassifier/laraclassifier',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '70c104a80ff3c0c71d7995856bb4953e2133e422',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '9a66cfaaf39f60bdfc3027de751960577568c6dc',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -617,9 +617,9 @@
             'dev_requirement' => false,
         ),
         'laraclassifier/laraclassifier' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '70c104a80ff3c0c71d7995856bb4953e2133e422',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '9a66cfaaf39f60bdfc3027de751960577568c6dc',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1320,8 +1320,8 @@
         'psr/http-client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '*',
+                0 => '*',
+                1 => '1.0',
             ),
         ),
         'psr/http-factory' => array(
@@ -1336,9 +1336,9 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
-                2 => '*',
+                0 => '*',
+                1 => '1.0',
+                2 => '^1.0',
             ),
         ),
         'psr/http-message' => array(
@@ -1353,9 +1353,9 @@
         'psr/http-message-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.1 || ^2.0',
-                2 => '*',
+                0 => '*',
+                1 => '1.0',
+                2 => '^1.1 || ^2.0',
             ),
         ),
         'psr/log' => array(
